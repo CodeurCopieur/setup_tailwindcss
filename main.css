@@ -1,0 +1,4 @@
+/* classes base, composants, couleurs etc... */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

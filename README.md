@@ -1,1 +1,1 @@
-# config-purge-autoprefixer_tailwindcss
+# setup Tailwind CSS
