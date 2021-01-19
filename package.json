@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss build main.css -o output.css"
+    "build": "postcss build main.css -o output.css",
+    "watch": "postcss build main.css -o output.css --watch",
+    "production": "cross-env NODE_ENV=production postcss main.css -o output.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/codwerk/setup_tailwindcss#readme",
   "dependencies": {
     "autoprefixer": "^10.2.1",
+    "cross-env": "^7.0.3",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"

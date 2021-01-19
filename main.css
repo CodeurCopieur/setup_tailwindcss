@@ -1,4 +1,8 @@
-/* classes base, composants, couleurs etc... */
+/* classes bases, composants, couleurs, tailles, espaces etc... */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color:teal;
+}
